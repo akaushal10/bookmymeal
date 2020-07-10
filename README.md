@@ -1,6 +1,12 @@
 Install Software.txt file using
 pip install -r Software.txt
 
+In settings.py add your Email ID and password to send otp via mail to 
+other users while they are registering on this site
+
+To access payment method In views.py file of myuser app 
+enter your Secret Merchant Key of Paytm Business account
+
 Create a mysql database name bookmymeal
 and import the book_my_meal.sql file in this database
 
