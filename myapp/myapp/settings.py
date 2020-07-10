@@ -131,5 +131,5 @@ MEDIA_ROOT=os.path.join(BASE_DIR,'media')
 EMAIL_USE_TLS = True
 EMAIL_HOST = 'smtp.gmail.com'
 EMAIL_PORT = 587
-EMAIL_HOST_USER = 'koushal10032000@gmail.com'
-EMAIL_HOST_PASSWORD = 'ritek10032000' #Enter your email password
+EMAIL_HOST_USER = ''
+EMAIL_HOST_PASSWORD = '' #Enter your email password
