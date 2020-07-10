@@ -13,7 +13,7 @@ from django.views.decorators.csrf import csrf_exempt
 from . import paytm_checksum as paytm
 curl=settings.CURRENT_URL
 media_url=settings.MEDIA_URL
-MERCHANT_KEY="IVqLU9EC%_1szfPo"
+MERCHANT_KEY="" #Enter your paytm merchant ID key
 notfQuery = "select notf_data from notification"
 models.cursor.execute(notfQuery)
 notifications = models.cursor.fetchall()
